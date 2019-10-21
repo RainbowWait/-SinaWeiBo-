@@ -22,6 +22,11 @@
 + (instancetype)welcomeView {
     return [[NSBundle mainBundle]loadNibNamed:@"WelcomeView" owner:nil options:nil].firstObject;
 }
+/*
+ 文字图片慢慢消失,alpha
+ 显示头像,头像往上移动,有弹簧效果
+ 欢迎回来的文字,慢慢显示alpha
+ */
 - (void)didMoveToSuperview {
     [super didMoveToSuperview];
     NSLog(@"%s",__func__);

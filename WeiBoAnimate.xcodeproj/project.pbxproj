@@ -15,6 +15,9 @@
 		04085B1E2355783A00CBDEFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085B1D2355783A00CBDEFB /* main.m */; };
 		04085B262355785200CBDEFB /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04085B252355785200CBDEFB /* WelcomeView.m */; };
 		04085B282355786000CBDEFB /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04085B272355786000CBDEFB /* WelcomeView.xib */; };
+		04404051235DB074009BBA9C /* PublishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04404050235DB074009BBA9C /* PublishVC.m */; };
+		04404054235DB0A9009BBA9C /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04404053235DB0A9009BBA9C /* ItemModel.m */; };
+		04404057235DB493009BBA9C /* MenuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04404056235DB493009BBA9C /* MenuItemButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,12 @@
 		04085B242355785100CBDEFB /* WelcomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeView.h; sourceTree = "<group>"; };
 		04085B252355785200CBDEFB /* WelcomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeView.m; sourceTree = "<group>"; };
 		04085B272355786000CBDEFB /* WelcomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		0440404F235DB074009BBA9C /* PublishVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishVC.h; sourceTree = "<group>"; };
+		04404050235DB074009BBA9C /* PublishVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishVC.m; sourceTree = "<group>"; };
+		04404052235DB0A9009BBA9C /* ItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		04404053235DB0A9009BBA9C /* ItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		04404055235DB493009BBA9C /* MenuItemButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuItemButton.h; sourceTree = "<group>"; };
+		04404056235DB493009BBA9C /* MenuItemButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItemButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				04085B0F2355783800CBDEFB /* AppDelegate.m */,
 				04085B112355783800CBDEFB /* ViewController.h */,
 				04085B122355783800CBDEFB /* ViewController.m */,
+				04404052235DB0A9009BBA9C /* ItemModel.h */,
+				04404053235DB0A9009BBA9C /* ItemModel.m */,
+				04404055235DB493009BBA9C /* MenuItemButton.h */,
+				04404056235DB493009BBA9C /* MenuItemButton.m */,
+				0440404F235DB074009BBA9C /* PublishVC.h */,
+				04404050235DB074009BBA9C /* PublishVC.m */,
 				04085B242355785100CBDEFB /* WelcomeView.h */,
 				04085B252355785200CBDEFB /* WelcomeView.m */,
 				04085B272355786000CBDEFB /* WelcomeView.xib */,
@@ -150,10 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04404054235DB0A9009BBA9C /* ItemModel.m in Sources */,
 				04085B132355783800CBDEFB /* ViewController.m in Sources */,
+				04404057235DB493009BBA9C /* MenuItemButton.m in Sources */,
 				04085B1E2355783A00CBDEFB /* main.m in Sources */,
 				04085B102355783800CBDEFB /* AppDelegate.m in Sources */,
 				04085B262355785200CBDEFB /* WelcomeView.m in Sources */,
+				04404051235DB074009BBA9C /* PublishVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
